@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils"
+import React from "react"
 
 export const LoadingSpinner = ({ className }: { className: string} ) => {
   return (

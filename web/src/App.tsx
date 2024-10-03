@@ -1,9 +1,9 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { Header } from './components/Header';
-import { Toaster } from './components/ui/toaster';
 import CountryInfo from './pages/CountryInfo';
 import { CountryList } from './pages/CountryList';
+import React from "react"
 
 const queryClient = new QueryClient();
 
@@ -25,7 +25,6 @@ function App() {
           <main className="flex items-center justify-center flex-grow p-4">
             <AppRouter /> 
           </main>
-          <Toaster />
         </div>
       </Router>
     </QueryClientProvider>

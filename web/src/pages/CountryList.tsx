@@ -10,6 +10,7 @@ import { api } from '@/lib/api';
 import { useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
+import React from "react"
 
 const fetchCountries = async () => {
   const response = await api.get('/countries/available');

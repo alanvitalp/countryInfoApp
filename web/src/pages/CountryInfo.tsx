@@ -6,6 +6,7 @@ import { api } from '@/lib/api';
 import { useQuery } from '@tanstack/react-query';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Bar, BarChart, CartesianGrid, XAxis, YAxis } from 'recharts';
+import React from "react"
 
 const chartConfig = {
   value: {
